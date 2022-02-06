@@ -1,8 +1,8 @@
 <template>
     <div class="about flex items-center justify-center">
         <div class="wrapper">
-            <div class="text-center text-5xl">Web Application</div><br><br>
-            <div class="text-center text-4xl">Once a student, Now a teacher</div>
+            <div class="text-center text-5xl">Project Web Teach </div><br><br>
+            <div class="text-center text-4xl">Everyone is once a learner, Now just the right time to start </div>
             <br><br>
             <div class="flex">
                 <button class="p-4 rounded-lg ml-10 mr-10">Login</button>
