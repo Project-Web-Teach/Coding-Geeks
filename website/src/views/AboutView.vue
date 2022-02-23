@@ -1,7 +1,7 @@
 <template>
     <div class="about flex items-center justify-center">
         <div class="wrapper">
-            <div class="text-center text-5xl">Project Web Teach </div><br><br>
+            <div class="text-center text-5xl">Coding Geeks </div><br><br>
             <div class="text-center text-4xl">Everyone is once a learner, Now just the right time to start </div>
             <br><br>
             <div class="flex">
