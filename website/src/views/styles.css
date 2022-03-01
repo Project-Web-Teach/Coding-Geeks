@@ -10,6 +10,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -238,6 +239,7 @@ a {
   color: #0d6efd;
   text-decoration: underline;
 }
+
 a:hover {
   color: #0a58ca;
 }
@@ -11286,6 +11288,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
 .bg-image-full {
   background-repeat: no-repeat;
   background-attachment: scroll;
