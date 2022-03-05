@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 ::selection {
@@ -29,14 +29,14 @@ nav .menu {
   padding: 0 20px;
 }
 
-.menu .logo a{ 
+.menu .logo a{
   text-decoration: none;
   color: #fff;
   font-size: 35px;
   font-weight: 600;
 }
 
-.menu ul{
+.menu ul {
   display: inline-flex;
 }
 

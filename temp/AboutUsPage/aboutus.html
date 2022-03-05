@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Project Web Teach - About Us</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <link rel="stylesheet" type="text/css" href="glider.css">
+
+        <style>
+            svg {
+                transition: 600ms ease-in-out;
+                margin-right: 1rem;
+            }
+            svg:hover {
+                color: black;
+                transform: scale(1.5);
+            }
+        </style>
+    </head>
+    <body class="bg-secondary">
+
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!-- Gilder JS -->
+        <script src="glider.js"></script>
+
+        <script>
+            window.addEventListener('load', function(){
+            new Glider(document.querySelector('.glider'), {
+                slidesToShow: 5,
+                })
+            })
+        </script>
+    </body>
+</html>
+
+
