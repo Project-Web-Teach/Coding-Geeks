@@ -10,8 +10,9 @@ import NavBar from "./components/NavBar.vue"
 </template>
 
 <style>
-@import '@/assets/base.css';
+@import "./assets/base.css";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 
 </style>
