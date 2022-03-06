@@ -1,52 +1,47 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-<div class="_container">
-    <div class="img">
-        <img src="" alt="">
-    </div>
-
-    <div class="center">
-        <div class="wrapper">
-            <div class="title">
-                Project Web Teach
+    <div class="_container">
+        <div class="img">
+            <img src="" alt="" />
+        </div>
+        <div class="center">
+            <div class="wrapper">
+                <div class="title">Project Web Teach</div>
+                <div class="sub_title">
+                    Everyone is once a learner, Now's just the right time to
+                    start!
+                </div>
+                <br />
+                <div class="btns">
+                    <button>
+                        <a href="/signup" style="margin-right: 10px"
+                            ><i class="fas fa-meteor"></i></a
+                        >Arch>
+                    </button>
+                    <button>
+                        <a href="/login" style="margin-right: 10px">Login</a>>
+                    </button>
+                </div>
             </div>
-            <div class="sub_title">
-                Everyone is once a learner, Now's just the right time to start!
-            </div>
-            <br>
-            <div class="btns">
-                <button>
-                    <a href="/signup" style="margin-right: 10px">Sign Up</a>>
-                </button>
-                <button>
-                    <a href="/login" style="margin-right: 10px">Login</a>>
-                </button>
-
-            </div>
+            <i class="fa-solid fa-bars absolute text-white text-7xl"></i>
         </div>
     </div>
-</div>
 </template>
 
 <style scoped>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Comfortaa'
+    font-family: 'Comfortaa';
 }
 
 ::selection {
-    color: #2E3440;
-    background: #D8DEE9;
-}
-
-.center {
-    background-color: #2E3440;
-    height: 100vh;
+    color: #2e3440;
+    background: #d8dee9;
 }
 
 a {
@@ -56,25 +51,26 @@ a {
 .img::before {
     content: '';
     position: absolute;
-    background: #2E3440;
+    background: #2e3440;
 }
 
 .center {
     display: flex;
-    height: 100vh;
+    height: 90vh;
+    background-color: #2e3440;
     align-items: center;
     justify-content: center;
 }
 
 .center .title {
-    color: #D8DEE9;
+    color: #d8dee9;
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .center .sub_title {
-    color: #D8DEE9;
+    color: #d8dee9;
     font-size: 25px;
     text-align: center;
 }
@@ -102,17 +98,17 @@ a {
 }
 
 .center .btns button:first-child {
-    color: #D8DEE9;
+    color: #d8dee9;
     background: none;
 }
 
 .btns button:first-child:hover {
     background: white;
-    color: #2E3440;
+    color: #2e3440;
 }
 
 .center .btns button:last-child {
     background: white;
-    color: #2E3440;
+    color: #2e3440;
 }
 </style>

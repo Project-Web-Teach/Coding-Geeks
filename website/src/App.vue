@@ -1,18 +1,17 @@
 <script setup lang="ts">
-import NavBar from "./components/NavBar.vue"
+import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-<div class="_container">
-    <NavBar />
-    <router-view></router-view>
-</div>
+    <div class="_container">
+        <NavBar />
+        <router-view></router-view>
+    </div>
 </template>
 
 <style>
-@import "./assets/base.css";
-@import url("https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css");
+@import './assets/base.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
-@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
-
 </style>

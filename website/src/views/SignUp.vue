@@ -1,69 +1,55 @@
 <template>
-<div class="wrapper">
-    <div class="container" id="container">
-        <div class="form-container log-in-container">
+    <div class="wrapper">
+        <div class="container" id="container">
+            <div class="form-container log-in-container">
+                <form action="#">
+                    <h1>Sign Up</h1>
 
-            <form action="#">
-                <h1>
-                    Sign Up
-                </h1>
+                    <div class="social-container">
+                        <a href="#" class="social">
+                            <i class="fas fa-facebook fa-2x"></i>
+                        </a>
 
-                <div class="social-container">
-                    <a href="#" class="social">
-                        <i class="fas fa-facebook fa-2x"></i>
-                    </a>
+                        <a href="#" class="social">
+                            <i class="fas fa-twitter fa-2x"> </i>
+                        </a>
+                    </div>
 
-                    <a href="#" class="social">
-                        <i class="fas fa-twitter fa-2x">
-                        </i>
-                    </a>
-                </div>
+                    <span> or enter credentials </span>
 
-                <span>
-                    or enter credentials
-                </span>
+                    <input type="email" placeholder="Enter your email" />
+                    <input type="password" placeholder="Choose a password" />
 
+                    <br />
 
-                <input type="email" placeholder="Enter your email" />
-                <input type="password" placeholder="Choose a password" />
+                    <button>Log In</button>
+                </form>
+            </div>
 
-                <br>
-                
-                <button>
-                    Log In
-                </button>
-            </form>
-        </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-right">
+                        <h1>Coding Geeks</h1>
 
-        <div class="overlay-container">
-            <div class="overlay">
-                <div class="overlay-panel overlay-right">
-                    <h1>
-                        Coding Geeks
-                    </h1>
-
-                    <p>
-                        Everyone is once a learner, Now's just the right time to start!
-                    </p>
-
+                        <p>
+                            Everyone is once a learner, Now's just the right
+                            time to start!
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </template>
 
 <script>
 export default {
-    setup() {
-
-    },
-}
+    setup() {},
+};
 </script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-
 
 h1 {
     font-weight: bold;
@@ -83,7 +69,7 @@ span {
 }
 
 a {
-    color: #88C0D0;
+    color: #88c0d0;
     font-size: 14px;
     text-decoration: none;
     margin: 15px 0;
@@ -91,9 +77,9 @@ a {
 
 button {
     border-radius: 20px;
-    border: 1px solid #Bf616A;
-    background-color: #Bf616A;
-    color: #FFFFFF;
+    border: 1px solid #bf616a;
+    background-color: #bf616a;
+    color: #ffffff;
     font-size: 12px;
     font-weight: bold;
     padding: 12px 45px;
@@ -103,10 +89,10 @@ button {
 }
 
 form {
-    background-color: #3B4252;
+    background-color: #3b4252;
     display: flex;
     align-items: center;
-	color: #D8DEE9;
+    color: #d8dee9;
     justify-content: center;
     flex-direction: column;
     padding: 0 50px;
@@ -115,19 +101,19 @@ form {
 }
 
 input {
-    background-color: #434C5E;
-	outline: none;
-	color: #D8DEE9;
+    background-color: #434c5e;
+    outline: none;
+    color: #d8dee9;
     border: none;
     padding: 12px 15px;
     margin: 8px 0;
     width: 100%;
-	border-radius: 5px;
-	font-size: 15px;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 .container {
-    background-color: #434C5E;
+    background-color: #434c5e;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -157,13 +143,13 @@ input {
 }
 
 .overlay {
-    background: #88C0D0;
-    background: -webkit-linear-gradient(to right, #8FBCBB, #88C0D0, #81A1C1);
-    background: linear-gradient(to right, #8FBCBB, #88C0D0, #81A1C1);
+    background: #88c0d0;
+    background: -webkit-linear-gradient(to right, #8fbcbb, #88c0d0, #81a1c1);
+    background: linear-gradient(to right, #8fbcbb, #88c0d0, #81a1c1);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
-    color: #2E3440;
+    color: #2e3440;
     position: relative;
     left: -100%;
     height: 100%;
@@ -192,8 +178,8 @@ input {
 }
 
 .social-container a {
-    border: 1px solid #DDDDDD;
-	background-color: #3B4252;
+    border: 1px solid #dddddd;
+    background-color: #3b4252;
     border-radius: 50%;
     display: inline-flex;
     justify-content: center;
@@ -204,10 +190,10 @@ input {
 }
 
 .wrapper {
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 </style>
