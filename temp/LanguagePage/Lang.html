@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="lang.css">
+    <title>
+            Languages | Coding Geeks
+    </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('HTML5', this, 'red')">HTML 5</button>
+<button class="tablink" onclick="openPage('CSS', this, 'green')" id="defaultOpen">CSS</button>
+<button class="tablink" onclick="openPage('Python', this, 'blue')">Python</button>
+<button class="tablink" onclick="openPage('JavaScript', this, 'orange')">JavaScript</button>
+
+<div id="HTML5" class="tabcontent">
+  <center><h3>HTML 5</h3>
+  <p>Home is where the heart is..</p></center>
+</div>
+
+<div id="CSS" class="tabcontent">
+  <center><h3>CSS</h3>
+  <p>Some news this fine day!</p></center>
+</div>
+
+<div id="Python" class="tabcontent">
+  <center><h3>Python</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p></center>
+</div>
+
+<div id="JavaScript" class="tabcontent">
+  <center><h3>JavaScript</h3>
+  <p>Who we are and what we do.</p></center>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
