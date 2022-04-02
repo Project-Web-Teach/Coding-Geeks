@@ -99,7 +99,7 @@ nav .menu {
 }
 
 .center .sub_title {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 44px;
   font-weight: 600;
 }
@@ -114,7 +114,7 @@ nav .menu {
   border-radius: 5px;
   border: none;
   margin: 0 10px;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 500;
   padding: 0 10px;
@@ -124,16 +124,25 @@ nav .menu {
 }
 
 .center .btns button:first-child {
-  color: #fff;
+  color: rgb(0, 0, 0);
   background: none;
 }
 
+
 .btns button:first-child:hover {
-  background: white;
-  color: black;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .center .btns button:last-child {
-  background: white;
-  color: black;
+  color: rgb(0, 0, 0);
+  background: none;
 }
+
+
+.btns button:first-child:hover{
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
