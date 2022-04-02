@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
 
     <link rel="icon" href="favicon.ico">
+	
     <link rel="stylesheet" href="TeachingPage.css">
 
     <title>
@@ -15,47 +17,57 @@
 </head>
 
 <body>
-    <div class="main">
-        <br>
+    <div class="scrollmenu">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="#support">Support</a>
+  <a href="#blog">Blog</a>
+  <a href="#tools">Tools</a>  
+  <a href="#base">Base</a>
+  <a href="#custom">Custom</a>
+  <a href="#more">More</a>
+  <a href="#logo">Logo</a>
+  <a href="#friends">Friends</a>
+  <a href="#partners">Partners</a>
+  <a href="#people">People</a>
+  <a href="#work">Work</a>
+</div>
 
-        <div class="heading-buttons">
-            <a href="https://www.html.com/">
-                <button class="HTML5-button">
-                    <span>
-                        HTML5
-                    </span>
-                </button>
-            </a>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
 
-            <a href="https://en.wikipedia.org/wiki/CSS/">
-                <button class="CSS-button">
-                    <span>
-                        CSS
-                    </span>
-                </button>
-            </a>
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+  <h2>Collapsed Sidebar</h2>
+  <p>Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p>
+</div>
 
-            <a href="https://www.python.org/">
-                <button class="PY-button">
-                    <span>
-                        Python
-                    </span>
-                </button>
-            </a>
-			
-			<a href="https://www.javascript.com/">
-                <button class="JS-button">
-                    <span>
-                        JavaScript
-                    </span>
-                </button>
-            </a>
-        </div>
-        <br>
-        <hr>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
 
-        <br> <br>
-        <div class="rectangle"></div>
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+		
+
+		
+    
+  
+  
+
+        
         <br> <br>
     </div>
 </body>
