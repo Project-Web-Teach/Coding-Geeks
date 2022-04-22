@@ -128,7 +128,6 @@ nav .menu {
   background: none;
 }
 
-
 .btns button:first-child:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -138,7 +137,6 @@ nav .menu {
   color: rgb(0, 0, 0);
   background: none;
 }
-
 
 .btns button:first-child:hover{
   background: rgb(255, 255, 255);
