@@ -1,9 +1,5 @@
 body {
-    background-color: #303030;
-}
-
-
-body {
+  background-color: #303030;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,7 +14,7 @@ body {
 
 /* Left column (menu) */
 .left {
-  flex: 35%;
+  flex: 10%;
   padding: 15px 0;
 }
 
@@ -34,10 +30,24 @@ body {
 
 /* Style the search box */
 #Search {
-  width: 100%;
   font-size: 18px;
   padding: 11px;
   border: 1px solid #ddd;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 200px;
+  height: 50px;
+  border: 3px solid #000000;
+}
+
+#Search[type=text] {
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+#Search[type=text]:focus {
+  width: 300px;
 }
 
 /* Style the navigation menu inside the left column */
@@ -56,4 +66,231 @@ body {
 
 #languageMenu li a:hover {
   background-color: #eee;
+  border-left-style: solid;
+  border-left-color: #000000;
+}
+
+span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+/* Smooth starting the "buttons" when hovered */
+.HTML5-btn {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.CSS3-btn {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.JS-btn {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.PHP-btn {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.PY-btn {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.jQ-btn {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.SQL-btn {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.BS-btn {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Njs-btn {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+/* --------------------------------------------------------------- */
+/* Animating the buttons */
+.HTML5-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.HTML5-btn:hover span {
+  padding-right: 25px;
+}
+
+.HTML5-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.CSS3-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.CSS3-btn:hover span {
+  padding-right: 25px;
+}
+
+.CSS3-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.JS-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.JS-btn:hover span {
+  padding-right: 25px;
+}
+
+.JS-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.PY-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.PY-btn:hover span {
+  padding-right: 25px;
+}
+
+.PY-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.PHP-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.PHP-btn:hover span {
+  padding-right: 25px;
+}
+
+.PHP-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.jQ-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.jQ-btn:hover span {
+  padding-right: 25px;
+}
+
+.jQ-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.SQL-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.SQL-btn:hover span {
+  padding-right: 25px;
+}
+
+.SQL-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.BS-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.BS-btn:hover span {
+  padding-right: 25px;
+}
+
+.BS-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.Njs-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Njs-btn:hover span {
+  padding-right: 25px;
+}
+
+.Njs-btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
